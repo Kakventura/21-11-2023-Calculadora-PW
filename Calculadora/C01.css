@@ -1,0 +1,51 @@
+body{
+    background-color: #6362629f;
+}
+.calculadora{
+    width: 370px;
+    margin: 50px auto;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    height: 590px;
+    background-color: black;
+  }
+  
+  #display {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 90px;
+    background-color: #514c5f;
+    font-size: 30px;
+    text-align: end;
+    color: white;
+  }
+  
+  .buttons,
+  .contas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    
+  }
+  
+  button {
+    margin: 2px;
+    margin-left: 20%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: #514c5f;
+    font-weight: bold;
+    color: #c09eb2;
+  }
+  
+  button:hover {
+    background-color: #818181;
+  }
+  
